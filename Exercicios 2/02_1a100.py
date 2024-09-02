@@ -3,7 +3,8 @@
 # choice() do módulo random
 
 import random
-#Quando colocado o range ele cria uma "lista" de numeros[lembre sempre q o range vc tem q ser mais 1], 
+#Quando colocado o range ele cria uma "lista" de numeros[lembre sempre q o range vc tem q ser mais 1{Lembre-se
+# o terceiro numero do range serve para ele ler em sei la o q em quantos veja o ex 7}], 
 # ou seja ali ele vai criar os numeros de 1 a 100
 #Random.choice serve para escolher um numero aleatorio de uma lista q VC definiu
 list = range(1,101)

@@ -4,7 +4,7 @@
 
 num = float(input("Coloque um numero"))
 
-#For i in -> é um tipo de loop
+#For i in -> é um tipo de loop, que podemos alterar facilmente
 
 for i in range(1,11):
     print (num*i)
