@@ -3,6 +3,9 @@
 list = ("timo","tamires","caroline")
 nome = input("Digite um nome de um usuario do 330:")
 
+#Se o nome estiver contido na list... 
+#Pq deve usar (IN) nao sei.... foda né parece mais certo colocar == mas suponho q seja apenas para numero
+
 if nome in list:
     print ("Voce esta certo", nome,"esta na lista")
 else:
