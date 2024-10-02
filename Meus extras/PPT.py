@@ -17,7 +17,18 @@ jogador = int(input("Digite um numero"))
 computador = random.choice(list)
 calculo = jogador + computador
 
-if calculo / 2: 
-    print ("vc ganhou",calculo)
-else:
-    print ("vc perdeu",calculo)
+try:
+    escolha = input("Par ou Impar? ").strip().upper()
+    if escolha == ("PAR"):
+        if calculo % 2 == 0: 
+            print ("vc ganhou",calculo)
+        else:
+            print ("vc perdeu",calculo)
+    elif escolha == ("IMPAR"):
+        if calculo % 2 != 0: 
+            print ("vc ganhou",calculo)
+        else:
+            print ("vc perdeu",calculo)
+
+except NameError:
+     print("Escolhe par ou impar seu burro")
